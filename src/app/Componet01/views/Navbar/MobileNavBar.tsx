@@ -13,16 +13,14 @@ const MobileNavBar = ()=>{
     return (            
         <div className="w-full p-4 bg-slate-100 flex flex-col lg:hidden">
            <div className="flex justify-center items-center my-4">
-                            <CartState/>
+              <CartState/>
           </div>
             {
             NavabarItems.map((item:any, index:number)=>(
               <div key={index}>
 
                 <div>
-
                     <Expand item={item}/>
-
                 </div>
               </div>
             ))

@@ -6,8 +6,7 @@ import Link from "next/link";
 const DropDown: FC<{items:NavBarType}> = ({items})=>{
     
     return (
-        <>
-        
+        <>    
             {
                 items.dropDownData?.map((item:NavBarType, index:number)=>{
                     return (
